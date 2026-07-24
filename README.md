@@ -18,5 +18,3 @@
 
 This repository contains my **Java** solutions to **GeeksforGeeks** Data Structures and Algorithms (DSA) problems. It serves as a record of my learning journey, helping me improve my problem-solving skills through consistent practice.
 
-> Repository synchronized using **GfG To GitHub**  
-> https://github.com/AtharvaNanavate/GfG-To-GitHub
