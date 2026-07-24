@@ -2,10 +2,13 @@
 
 # 💚 GeeksforGeeks Journey
 
-<img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<p>
+  <img src="https://skillicons.dev/icons?i=java" height="50" alt="Java"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/geeksforgeeks/2F8D46" height="50" alt="GeeksforGeeks"/>
+</p>
 
-### 🚀 Solving DSA Problems in Java
+### 🚀 Solving Data Structures & Algorithms in Java
 
 </div>
 
@@ -13,16 +16,7 @@
 
 ## 📖 About
 
-This repository serves as a collection of my solutions to **GeeksforGeeks Data Structures and Algorithms (DSA)** problems, implemented in **Java**. It documents my learning journey, helps me improve my problem-solving skills, and tracks my progress through consistent practice.
+This repository contains my **Java** solutions to **GeeksforGeeks** Data Structures and Algorithms (DSA) problems. It serves as a record of my learning journey, helping me improve my problem-solving skills through consistent practice.
 
-This repository is automatically synchronized using **GfG To GitHub**.
-
-🔗 https://github.com/AtharvaNanavate/GfG-To-GitHub
-
----
-
-<div align="center">
-
-### 🌟 Happy Coding!
-
-</div>
+> Repository synchronized using **GfG To GitHub**  
+> https://github.com/AtharvaNanavate/GfG-To-GitHub
