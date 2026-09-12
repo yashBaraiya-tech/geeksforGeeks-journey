@@ -2,21 +2,23 @@ class Solution {
 	ArrayList<Integer> findTwoElement(int arr[]) {
 		// code here
 		ArrayList<Integer> ans = new ArrayList<>();
+		
 		int n = arr.length;
-		for (int i = 0; i<n; i++) {
-			int val = Math.abs(arr[i]);
-			int position = val - 1;
-			
-			if (arr[position]>0) {
-				arr[position] = -arr[position];
+		
+		boolean flag[] = new boolean[n + 1];
+		
+		for (int e:arr) {
+			if (!flag[e]) {
+				flag[e] = true;
 			} else {
-				ans.add(val);
+				ans.add(e);
 			}
 		}
 		
-		for (int i = 0; i<n; i++) {
-			if (arr[i]>0) {
-				ans.add(i + 1);
+		for (int i = 1; i <= n; i++) {
+			if (flag[i] == false) {
+				ans.add(i);
+				break;
 			}
 		}
 		
