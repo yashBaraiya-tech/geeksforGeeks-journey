@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/smallest-absolute-difference4320/1">Kth Smallest Pairwise Difference</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given an integer array <strong>arr[] </strong>of size <strong>n</strong> and an integer<strong> k</strong>, consider the absolute difference of <strong>arr[i]</strong> and <strong>arr[j]</strong> for every pair of indices <strong>i != j</strong>. Find the k<sup>th</sup> smallest value among all these pairwise differences.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 2, 3, 4], k = 3<strong>
+Output: </strong>1 <strong>
+Explanation: </strong>The pairwise differences are [1, 2, 3, 1, 2, 1]. Sorted differences are [1, 1, 1, 2, 2, 3]. The 3rd smallest is 1.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [10, 10, 10, 10], k = 6
+<strong>Output: </strong>0<br><strong>Explanation:</strong> Every pair of elements is identical, so all 6 pairwise differences are 0. Hence, the 6th smallest is 0.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 14pt;">1 ≤ n ≤ 10<sup>5</sup><br>1 ≤ arr[i] ≤ 10<sup>5</sup><br>1 ≤ k ≤ n*(n-1)/2</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;
